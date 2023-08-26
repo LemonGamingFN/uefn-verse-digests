@@ -2,7 +2,7 @@
 #################################################
 # Generated Digest of Verse API
 # DO NOT modify this manually!
-# Generated from build: ++Fortnite+Release-24.20-CL-24939793
+# Generated from build: ++Fortnite+Release-24.40-CL-25595478
 #################################################
 
 Simulation<public> := module:
@@ -779,3 +779,4 @@ Concurrency<public> := module:
 
     task<native><public>(t:type)<computes> := class<abstract><final>(awaitable(t)):
         Await<native><override>()<suspends>:t
+
